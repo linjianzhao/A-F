@@ -1,0 +1,153 @@
+#content{
+	width: 100%;
+	height: 650px;
+	background: #D1D3D6;
+	border-top: 1px solid #999999;
+}
+.hezhi{
+	width: 410px;
+	height: 501px;
+	background: white;
+	margin: 60px auto 60px;
+}
+.ann{
+	width: 350px;
+	height: 450px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.denlu,.chuanjian{
+	width: 175px;
+	height: 53px;
+	/*background: #008B8B;*/
+	float: left;
+	text-align: center;
+	line-height: 53px;
+	color: #C9C9C9;
+	border-bottom: 1px solid #C9C9C9;
+	font-size: 15px;
+	cursor: pointer;
+}
+.chuanjian{
+	color: #2E3430;
+	border-bottom: 1px solid #333333;
+}
+.zhuc{
+	width: 350px;
+	height: 393px;
+	/*background: yellow;*/
+	float: left;
+	margin-top: 35px;
+	/*z-index: -1;*/
+}
+.youxian{
+	width: 348px;
+	height: 106px;
+	/*background: #8B4513;*/
+	border: 1px solid #dad9d0;
+}
+.youxian input{
+	width: 308px;
+	height: 50px;
+	/*background: #00FFFF;*/
+	border: none;
+	color:#63605A ;
+	outline: none;
+	display: block;
+	margin:0 auto;
+	font-size: 14px;
+}
+#youxian{
+	border-bottom: 1px solid #dad9d0;
+}
+.zifu{
+	width: 308px;
+	height: 50px;
+	/*background: lavenderblush;*/
+	margin: auto;
+	font-size: 12px;
+	line-height: 50px;
+	color: #63605A;
+}
+.jiesou{
+	width: 308px;
+	height: 75px;
+	/*background: saddlebrown;*/
+	margin: auto;
+	border-bottom: 1px solid #dad9d0;
+	border-top: 1px solid white;
+}
+.kexuan{
+	width: 308px;
+	height: 32px;
+	/*background: skyblue;*/
+	margin-top: 21px;
+	margin-bottom: 23px;
+}
+.kuan,.kuan1{
+	width: 25px;
+	height: 25px;
+	/*background: seashell;*/
+	border: 2px solid #dad9d0;
+	float: left;
+	cursor: pointer;
+}
+.kexuan p{
+	font-size: 12px;
+	color: #63605A;
+	float: left;
+	line-height: 32px;
+	margin-left: 10px;
+	/*overflow : hidden;
+	display: -webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient: vertical;*/
+}
+.shengmin{
+	width: 308px;
+	height: 90px;
+	/*background: #008B8B;*/
+	border-top: 1px solid #dad9d0;
+}
+.kuankuan{
+	width: 308px;
+	height: 58px;
+	/*background: lawngreen;*/
+	margin-top: 17px;
+}
+.yichu{
+	font-size: 12px;
+	color: #63605A;
+	float: left;
+	/*line-height: 32px;*/
+	margin-left: 10px;
+	overflow : hidden;
+	display: -webkit-box;
+	-webkit-line-clamp:3;
+	-webkit-box-orient: vertical;
+}
+.sss{
+	width: 250px;
+	height: 32px;
+	float: left;
+}
+.yichu a{
+	color:  #63605A;
+}
+.zhanhu{
+	width: 308px;
+	height: 48px;
+	background: #00782e;
+	color: white;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+}
+.kuan img,.kuan1 img{
+	width: 25px;
+	height: 25px;
+	display: none;
+}
+.biankuan,.bor{
+	border: 1px solid white;
+}

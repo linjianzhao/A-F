@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script src="jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="register.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="register.css"/>
+	<body>
+		<div id="head">
+			<!--头部-->
+		</div>
+		<!--内容-->
+		<div id="content">
+			<div class="denlu">
+				<div class="zhon">
+					<div class="xiaohe">登录</div>
+					<div class="xiaohe">创建账户</div>
+					<div class="xiafan">
+						<div class="youxian">
+							<input type="text" class="youxian" placeholder="电子邮箱地址" value="" id="youxian"/>
+							<input type="text" class="youxian" placeholder="密码" value="" id="mima"/>
+						</div>
+						<div class="lianjie">
+							<a>忘记密码？</a>
+						</div>
+						<div class="qued">登录</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="foot">
+			<!--脚步-->
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$("#head").load("Navigation.html")
+			$("#foot").load("tail.html")
+		})
+		
+		
+	</script>
+</html>

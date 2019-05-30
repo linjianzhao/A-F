@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0;}
+#content{
+	width: 100%;
+	height: 500px;
+	background: #D1D3D6;
+	border-top: 1px solid #999999;
+}
+.denlu{
+	width: 410px;
+	height: 350px;
+	background: white;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.zhon{
+	width: 350px;
+	height: 300px;
+	/*background: #00FFFF;*/
+	margin: 0 auto;
+}
+.xiaohe{
+	width: 175px;
+	height: 53px;
+	/*background: #008B8B;*/
+	float: left;
+	text-align: center;
+	line-height: 53px;
+	color: #C9C9C9;
+	border-bottom: 1px solid #C9C9C9;
+	font-size: 15px;
+	cursor: pointer;
+}
+.xiaohe:nth-child(1){
+	color: #2E3430;
+	border-bottom: 1px solid #333333;
+}
+.xiafan{
+	width: 350px;
+	height: 240px;
+	/*background: #008000;*/
+	float: left;
+	margin-top: 35px;
+	/*z-index: -1;*/
+}
+.youxian{
+	width: 348px;
+	height: 101px;
+	/*background: #8B4513;*/
+	border: 1px solid #dad9d0;
+}
+.youxian input{
+	width: 308px;
+	height: 50px;
+	/*background: #00FFFF;*/
+	border: none;
+	color:#63605A ;
+	border-bottom: 1px solid #dad9d0;
+	outline: none;
+	display: block;
+	margin:0 auto;
+	font-size: 14px;
+}
+.lianjie{
+	width: 350px;
+	height: 58px;
+	/*background: #00FFFF;*/
+}
+.lianjie a{
+	color: #63605A;
+	font-size: 14px;
+	line-height: 58px;
+	display: block;
+	text-align: center;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.qued{
+	width: 350px;
+	height: 48px;
+	background: #00782e;
+	color: white;
+	line-height: 48px;
+	text-align: center;
+}

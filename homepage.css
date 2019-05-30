@@ -1,0 +1,712 @@
+*{margin: 0; padding: 0;}
+		#peak{
+			height: 40px;
+			width: 100%;
+			background: #272727;
+		}
+		.Left_upper_1,.Left_upper_2{
+			width: 75px;
+			height: 40px;
+			background: #424242;
+			float: left;
+			/*display: inline-block;*/
+			color: white;
+			text-align: center;
+			line-height: 40px;
+			font-weight: bold;
+		}
+		.Left_upper_2{
+			font-size: 12px;
+			border-left: 1px solid #272727;	
+			cursor: pointer;
+		}
+		.Right_upper_1,.Right_upper_2{
+			width: 62px;
+			height: 14px;
+			/*background: #008B8B;*/
+			float: right;
+			font-size: 12px;
+			color: white;
+			line-height: 14px;	
+			margin-top: 17px;
+			margin-right: 20px;
+		}
+		.triangle{
+			width: 0px;
+			height: 0px;
+			margin-top: 3px;
+			border: 4px solid #00FFFF;
+			border-color:transparent transparent transparent white;
+			float: right;
+		}
+		.Right_upper_1 a,.Right_upper_2 a{
+			text-decoration: none;
+			color: white;
+		}
+		.details{
+			font-size: 12px;
+			float: right;
+			color: #888888;
+			margin-top: 16px;
+			margin-right: 20px;
+		}
+		.discount{
+			width: 245px;
+			height: 12px;
+			font-size: 12px;
+			/*background: #008000;*/
+			color: white;
+			float: right;
+			margin-top: 16px;
+		}
+		#navigation{
+			width: 100%;
+			height: 56px;
+			background: white;
+			border-top: 1px solid #C0C0C0;
+			border-bottom: 1px solid #C0C0C0;
+			position: sticky;
+			top: 0px;
+		}
+		.logo{
+			width: 200px;
+			height: 56PX;
+			/*background: red;*/
+			float: left;
+			font-size: 22px;
+			text-align: center;
+			line-height: 56px;
+			font-weight: bold;
+			font-family: "宋体";
+			letter-spacing: -1px;
+		}
+		.mens,.woman,.Jeans,.sign{
+			width: 50px;
+			height: 56px;
+			/*background: #008B8B;*/
+			float: left;
+		}
+		.mens a,.woman a,.Jeans a,.sign a{
+			color: #000000;
+			text-decoration: none;
+		}
+		.mens a:hover,.woman a:hover,.Jeans a:hover,.sign a:hover{
+			border-bottom: 1px solid black;padding-bottom: 2px;
+			/*transition-duration: 0.3s;*/
+		}
+		.Jeans{
+			width: 64px;
+			height: 56px;
+			/*background: #0000FF;*/
+			float: left;
+		}
+		.sign{
+			width: 62px;
+			height: 56px;
+			/*background: #00FFFF;*/
+			float: left;
+			font-weight: bold;
+			line-height: 56px;
+			text-align: center;
+			font-size: 13px;
+		}
+		.mens,.woman,.Jeans{
+			font-size: 14px;
+			line-height: 56px;
+			text-align: center;
+		}
+		.logo,.mens,.woman,.Jeans,.sign{
+			margin-left: 10px;
+			cursor: pointer;
+		}
+		#backdrop {
+			width: 100%;
+			height: 620px;
+			/*background: #006400;*/
+			background-image:url(img/111.jpg) ;
+			background-size: 100% 620px;
+		}
+		.Written_words{
+			width: 870px;
+			height: 400px;
+			/*background: #008000;*/
+			float: left;
+			margin-top: 150px;
+			margin-left: 900px;
+		}
+		.container{
+			width: 500px;
+			height: 400px;
+			/*background: #00CED1;*/
+			margin: auto;
+			/*line-height: 620px;*/
+		}
+		.Limit{
+			font-size: 18px;
+			color: white;
+			text-align: center;
+			margin: auto;
+			margin-bottom: 15px;
+		}
+		.English{
+			color: white;
+			font-weight: 400;
+			font-size: 22px;
+			text-align: center;
+		}
+		.Letter_1{
+			color: white;
+			font-size: 60PX;
+			font-weight: bold;
+			text-align: center;
+		}
+		.Letter_2{
+			color: white;
+			font-size: 20px;
+			font-weight: 600;
+			letter-spacing: 10px;
+			text-align: center;
+			margin-bottom: 15px;
+		}
+		.Football,.Sale{
+			color:white;
+			text-align: center;
+			font-size: 20px;
+		}
+		.purchase{
+			width: 180px;
+			height: 45px;
+			/*background: #0000FF;*/
+			float: left;
+			margin-left: 50px;
+			margin-top: 25px;
+			border:  1px solid white; 
+		}
+		.understand{
+			width: 180px;
+			height: 45px;
+			/*background: #0000FF;*/
+			float: right;
+			margin-right: 60px;
+			margin-top: 25px;
+			border:  1px solid white; 
+		}
+		.purchase,.understand{
+			text-align: center;
+			line-height: 45px;
+			color: white;
+			cursor: pointer;
+			transition-duration: 0.3s;
+		}
+		#Middle {
+			width: 100%;
+			height: 700px;
+			/*background: #00FFFF;*/
+			margin-top: 20px;
+			margin-bottom: 70px;	
+		}
+		.tup1{
+			width: 690px;
+			height: 700px;
+			/*background: #008000;*/
+			float: left;
+			margin-left: 80px;
+			background-image:url(img/333.jpg) ;
+			background-size:690px 700px ;
+		}
+		.tup2{
+			width: 690px;
+			height: 700px;
+			/*background: #008000;*/
+			float: right;
+			margin-right: 80px;
+			background-image: url(img/444.jpg);
+			background-size:690px 700px ;
+			/*margin-top: -55px;*/
+		}
+		.Written_words{
+			width: 200px;
+			height: 200px;
+			/*background: skyblue;*/
+		}
+		.Choose_nens,.Choose_woman{
+			width: 180px;
+			height: 40px;
+			/*background: #006400;*/
+			border: 1px solid white; 
+			text-align: center;
+			line-height: 40px;
+			color: white;
+			font-size: 14px;
+			margin-top: 20px;
+			transition-duration: 0.3s;
+			cursor: pointer;
+		}
+		#Middle_two{
+			width: 100%;
+			height: 650px;
+			/*background: khaki;*/
+		}
+		.tup3{
+			width: 90%;
+			height: 650px;
+			background-image: url(img/666.jpg);
+			margin: auto;
+			background-size:100% 650px;
+			border-top: 1px solid white;
+		}
+		.fashion p{
+			font-size: 35px;
+			color: white;
+		}
+		.fashion{
+			/*background: skyblue;*/
+			margin-top: 250px;
+			margin-left: 50px;
+		}
+		.Dress{
+			font-family: "楷体";
+			font-size: 37px;
+			color: white;
+			width: 350px;
+			/*background: skyblue;*/
+			margin:0 auto;
+			margin-top: 570px;
+		}
+		.Choose_woman{
+			margin:20px auto;
+			font-family: "微软雅黑";
+		}
+		.blend{
+			width: 500px;
+			height: 250px;
+			background: white;
+			margin: auto;
+			background: rgba(255,255,255,0.9);
+			margin-top: 210px;
+			margin-left: 450px;
+			border-top: 1px solid white;
+		}
+		.NEW,.Summer{
+			text-align: center;
+			color: #253646;
+			display: block;
+		}
+		.NEW{
+			font-size: 50px;
+			font-family: "宋体";
+			margin-top: 40px;
+		}
+		.Summer{
+			font-size: 20px;
+			margin-top: 10px;
+		}
+		.Man,.madam{
+			width: 200px;
+			height: 40px;
+			/*background: skyblue;*/
+			color: #253646;
+			border: 1px solid #253646;
+			text-align: center;
+			line-height: 40px;
+			margin-top: 30px;
+			cursor: pointer;
+			transition-duration: 0.3s;
+		}
+		.Man{
+			float: left;
+			margin-left: 35px;
+		}
+		.madam{
+			float: right;
+			margin-right: 35px;
+		}
+		#Below{
+			width: 100%;
+			height: 750px;
+			/*background: skyblue;*/
+			background-image:url(img/777.jpg) ;
+			background-size: 100% 750px;
+			margin-top: 50px;
+			border-top: 1px solid white;
+			margin-bottom: 40px;
+		}
+		.Below_Small{
+			width: 500px;
+			height: 250px;
+			/*background: skyblue;*/
+			margin:250px auto;
+		}
+		.texture,.Supreme,.Comfortable{
+			text-align: center;
+			color: white;
+		}
+		.texture{
+			font-size: 25px;
+			letter-spacing: 1px;
+		}
+		.Supreme{
+			font-family: "宋体";
+			font-size: 60px;
+			font-style: italic;
+		}
+		.Comfortable{
+			font-size: 18px;
+			margin-top: 5px;
+		}
+		.menswear,.Ladies_Suits{
+			width: 200px;
+			height: 40px;
+			color: white;
+			border: 1px solid white;
+			text-align: center;
+			line-height: 40px;
+			margin-top: 30px;
+			cursor: pointer;
+			transition-duration: 0.3s;
+		}
+		.menswear{
+			float: left;
+			margin-left: 35px;
+		}
+		.Ladies_Suits{
+			float: right;
+			margin-right: 35px;
+		}
+		#Below_two{
+			width: 99.96%;
+			height: 360px;
+			background: #EBE9E9;
+			border-top: 1px solid #C0C0C0;
+			border-right: 1px solid #C0C0C0;
+		}
+		.Below_Small_two{
+			width: 99%;
+			height: 320px;
+			margin:20px auto;
+			background: white;
+			background-image:url(img/888.jpg) ;
+		}
+		.Piiic img{
+			float: right;
+			width: 250px;
+			margin-right: 80px;
+			margin-top: 120px; 
+		}
+		.children{
+			float: right;
+			margin-right: -245px;
+			margin-top: 165px;
+		}
+		.children a{
+			color: #000000;
+			font-size: 18px;
+		}
+		.children_one{
+			margin-right: 50px;
+		}
+		#Icon{
+			width: 100%;
+			height: 200px;
+			background: #272727;
+			cursor: pointer;
+			text-align: center;
+			line-height: 250px;
+		}
+		#Under{
+			width: 100%;
+			height: 370px;
+			background: #333;
+			border-top: 1px solid #253646;
+		}
+		.Under_one{
+			width: 30%;
+			height: 370px;
+			/*background: #008000;*/
+			border-top: 1px solid #253646;
+			margin-left: 70px;
+			float: left;
+		}
+		.mailbox{
+			width: 230px;
+			height: 40px;
+			/*background: white;*/
+			text-align: center;
+			line-height: 40px;
+			border: 1px solid white;
+			cursor: pointer;
+			margin-top: 50px;
+			transition-duration: 0.2s;
+		}
+		.mailbox a{
+			color: white;
+			text-decoration: none;
+			font-size: 13px;
+			letter-spacing: 2px;
+			transition-duration: 0.2s;
+		}
+		.Under_one p{
+			font-size: 13px;
+			color: #999;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		#follow{
+			width: 200px;
+			height: 100px;
+			/*background: #00CED1;*/
+		}
+		.follow{
+			font-size: 14px;
+			color: white;
+			margin-bottom: 5px;
+		}
+		.weibo,.WeChat{
+			width: 45px;
+			height: 45px;
+			/*background: red;*/
+			float: left;
+			line-height: 45px;
+			text-align: center;
+			border-radius: 30px;
+			border: 1px solid white;
+			color: white;
+			font-size: 14px;
+			margin-right: 20px;
+			cursor: pointer;
+		}
+		.weibo img,.WeChat img{
+			width: 50px;
+			height: 50px;
+			border-radius: 30px;
+			float: left;
+			margin-right: 20px;
+			cursor: pointer;
+		}
+		#payment{
+			width: 300px;
+			height: 110px;
+			/*background: #253646;*/
+			border-top: 1px solid #272727;
+		}
+		.payment{
+			font-size: 12px;
+			color: white;
+			margin-top: 10px;
+		}
+		.payment_one,.payment_two{
+			display: block;
+			font-size: 14px;
+			color: #999;
+			float: left;
+			width: 140px;
+		}
+		.payment_one div{
+			margin-right: 80px;
+			margin-top: 10px;
+		}
+		.payment_two div{
+			margin-right: 70px;
+			margin-top: 10px;
+		}
+		#about{
+			width: 55%;
+			height: 300px;
+			/*background: deepskyblue;*/
+			float: left;
+			margin-top: 50px;
+			margin-left: 100px;
+		}
+		.about_Small{
+			/*width: 650px;*/
+			height: 100px;
+			/*background: #253646;*/
+		}
+		.about_Small a:hover{
+			color: #C0C0C0;
+		}
+		.about_Small_one,.about_Small_two,.about_Small_Three,.about_Small_Four{
+			width: 210px;
+			height: 100px;
+			/*background: #0000FF;*/
+			float: left;
+		}
+		.large_one,.large_two,.large_Three,.large_Four{
+			width: 210px;
+			height: 190px;
+			float: left;
+		}
+		.about_large a:hover{
+			color: #424242;
+			text-decoration: underline;
+		}
+		.rule{
+			width: 200px;
+			height: 50px;
+			/*background: red;*/
+			font-size: 14px;
+			color: #999;
+			margin-right: 10px;
+		}
+		.rule a{
+			color: #999;
+			text-decoration: none;
+		}
+		.guidance{
+			font-size: 12px;
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+		.guidance a{
+			color: #C9C9C9;
+			text-decoration: none;
+		}
+		.loupe{
+			float: right;
+			width: 50px;
+			height: 35px;
+			/*background: skyblue;*/
+			margin-top: 20px;
+			cursor: pointer;
+			/*background-image:url(img/放大镜.png);*/
+			/*background-size: 30px;*/
+			/*margin-left: -10px;*/
+		}
+		#navigation input{
+			width: 150px;
+			height: 25px;
+			/*float: right;*/
+			/*position: relative;*/
+			margin-left: 780px;
+			margin-top: -16px;
+		}
+		.loupe img{
+			width: 28px;
+			height: 28px;
+		}
+		.shopping_one,.shopping_tow,.shopping_Four{
+			float: right;
+			width: 50px;
+			height: 35px;
+			/*background: skyblue;*/
+			margin-top: 20px;
+			cursor: pointer;
+		}
+		.shopping_one img,.shopping_tow img,.shopping_Four img{
+			width: 20px;
+			height: 20px;
+			text-align: center;
+			/*border: 1px solid black;*/
+		}
+		.shopping_one img:hover,.shopping_tow img:hover,.shopping_Four img:hover{
+			border: 1px solid black;
+		}
+		#navigation input{
+			  display: inline-block;	
+			  position: absolute;
+			  right: 166px;
+			  top: 32px;
+			  width: 0px;
+			  display: none;
+			  outline: none;
+			  z-index: -1;
+		}
+		#pop{
+			width: 200px;
+			height: 101px;
+			background: white;
+			float: right;
+			margin-right:40px ;
+			display: none;
+			cursor: pointer;
+			position: sticky;
+			top: 58px;
+			border: 1px solid #C9C9C9;
+			margin-top: -1px;
+		}
+		.pop_one,.pop_two{
+			width: 160px;
+			height: 50px;
+			line-height: 50px;
+			font-size: 13px;
+			font-family: "黑体";
+			margin: auto;
+		}
+		.pop_one:hover,.pop_two:hover{
+			background: whitesmoke;
+		}
+		.pop_one{
+			border-bottom: 1px solid #888888;
+		}
+		.pop_Three{
+			float: right;
+		}
+		#Login{
+			width: 240px;
+			height: 204px;
+			background: white;
+			float: right;
+			/*z-index: 99;*/
+			font-size: 14px;
+			display: none;
+			position: sticky;
+			top: 58px;
+			border: 1px solid #C9C9C9;
+			margin-top: -1px;
+		}
+		.Login{
+			width: 200px;
+			height: 50px;
+			line-height: 50px;
+			margin: auto;
+			border-bottom: 1px solid #888888;
+			cursor: pointer;
+		}
+		.Login:hover{
+			background: whitesmoke;
+		}
+		.Login_two{
+			width: 20px;
+			height: 20px;
+			font-size: 12px;
+			font-weight: bold;
+			float: left;
+			margin-right: 10px;
+		}
+		.Login_one,.Login_Three,.Login_Four{
+			width: 20px;
+			height: 20px;
+			float: left;
+			/*line-height: 50px;*/	
+			margin-top: 5px;
+			margin-right: 10px;
+		}
+		.Login img{
+			width: 20px;
+			height: 20px;
+		}
+		#top{
+			width: 1px;
+			height: 1px;
+			background: #999999;
+			float: right;
+			margin-right: 55px;
+			margin-top: 10px;
+			position: sticky;
+			top: 730px;
+			border-radius: 5px;
+			display: none;
+			transition-duration: 0.2s;
+		}
+		#top img{
+			width: 35px;
+			height: 35px;
+			border: 2px solid #666666;
+			border-radius: 8px;
+		}
+		#fanda{
+			float: right;
+			margin-top: 22px;
+			margin-right: 20px;
+			/*z-index: 99;*/
+		}

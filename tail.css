@@ -1,0 +1,161 @@
+*{margin: 0;padding: 0;}
+		#Icon{
+			width: 100%;
+			height: 200px;
+			background: #272727;
+			cursor: pointer;
+			overflow: hidden;
+			text-align: center;
+			line-height: 250px;
+		}
+		/*#Icon img{
+			text-align: center;
+		}*/
+		#Under{
+			width: 100%;
+			height: 370px;
+			background: #333333;
+			border-top: 1px solid #253646;
+		}
+		.Under_one{
+			width: 30%;
+			height: 370px;
+			/*background: #008000;*/
+			border-top: 1px solid #253646;
+			margin-left: 70px;
+			float: left;
+		}
+		.mailbox{
+			width: 230px;
+			height: 40px;
+			/*background: white;*/
+			text-align: center;
+			line-height: 40px;
+			border: 1px solid white;
+			cursor: pointer;
+			margin-top: 50px;
+			transition-duration: 0.2s;
+		}
+		.mailbox a{
+			color: white;
+			text-decoration: none;
+			font-size: 13px;
+			letter-spacing: 2px;
+			transition-duration: 0.2s;
+		}
+		.Under_one p{
+			font-size: 13px;
+			color: #999;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		#follow{
+			width: 200px;
+			height: 100px;
+			/*background: #00CED1;*/
+		}
+		.follow{
+			font-size: 14px;
+			color: white;
+			margin-bottom: 5px;
+		}
+		.weibo,.WeChat{
+			width: 45px;
+			height: 45px;
+			/*background: red;*/
+			float: left;
+			line-height: 45px;
+			text-align: center;
+			border-radius: 30px;
+			border: 1px solid white;
+			color: white;
+			font-size: 14px;
+			margin-right: 20px;
+			cursor: pointer;
+		}
+		.weibo img,.WeChat img{
+			width: 50px;
+			height: 50px;
+			border-radius: 30px;
+			float: left;
+			margin-right: 20px;
+			cursor: pointer;
+		}
+		#payment{
+			width: 300px;
+			height: 110px;
+			/*background: #253646;*/
+			border-top: 1px solid #272727;
+		}
+		.payment{
+			font-size: 12px;
+			color: white;
+			margin-top: 10px;
+		}
+		.payment_one,.payment_two{
+			display: block;
+			font-size: 14px;
+			color: #999;
+			float: left;
+			width: 140px;
+		}
+		.payment_one div{
+			margin-right: 80px;
+			margin-top: 10px;
+		}
+		.payment_two div{
+			margin-right: 70px;
+			margin-top: 10px;
+		}
+		#about{
+			width: 55%;
+			height: 300px;
+			/*background: deepskyblue;*/
+			float: left;
+			margin-top: 50px;
+			margin-left: 100px;
+		}
+		.about_Small{
+			/*width: 650px;*/
+			height: 100px;
+			/*background: #253646;*/
+		}
+		.about_Small a:hover{
+			color: #C0C0C0;
+		}
+		.about_Small_one,.about_Small_two,.about_Small_Three,.about_Small_Four{
+			width: 210px;
+			height: 100px;
+			/*background: #0000FF;*/
+			float: left;
+		}
+		.large_one,.large_two,.large_Three,.large_Four{
+			width: 210px;
+			height: 190px;
+			float: left;
+		}
+		.about_large a:hover{
+			color: #424242;
+			text-decoration: underline;
+		}
+		.rule{
+			width: 200px;
+			height: 50px;
+			/*background: red;*/
+			font-size: 14px;
+			color: #999;
+			margin-right: 10px;
+		}
+		.rule a{
+			color: #999;
+			text-decoration: none;
+		}
+		.guidance{
+			font-size: 12px;
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+		.guidance a{
+			color: #C9C9C9;
+			text-decoration: none;
+		}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="user.css"/>
+	<script src="jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="user.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<div id="head">
+			<!--头部-->
+		</div>
+		<!--内容-->
+		<div id="content">
+			<div class="hezhi">
+				<div class="ann">
+					<div class="denlu">登录</div>
+					<div class="chuanjian">创建账户</div>
+					<div class="zhuc">
+						<div class="youxian">
+							<div class="biankuan">
+								<input type="text" class="youxian" placeholder="电子邮箱地址" value="" id="youxian"/>
+							</div>
+							<div class="bor">
+								<input type="text" class="youxian" placeholder="密码" value="" id="mimi"/>
+							</div>
+						</div>
+						<div class="zifu">
+							密码必须是 8-25 个字符，且包含字母和数字。
+						</div>
+						<div class="jiesou">
+							<div class="kexuan">
+								<div class="kuan">
+									<img src="img/勾.jpg" class="gou"/>
+								</div>
+								<div class="sss">
+									<div class="yichu">
+										接收电子邮件，抢先获取独家资讯、动态和新闻!(可选)
+									</div>
+								</div>
+							</div>
+							<div class="shengmin">
+								<div class="kuankuan">
+									<div class="kuan1">
+										<img src="img/勾.jpg" class="gou1"/>
+									</div>
+										<div class="sss">
+											<div class="yichu" title="我声明我已年满 16 岁，已阅读和接受网站使用条款，
+并同意 Abercrombie & Fitch 基于隐私政策所述之目
+的收集、使用和传输我的个人数据。">
+											我声明我已年满 16 岁，已阅读和接受<a href="#">网站使用条款</a>，
+											并同意 Abercrombie & Fitch 基于<a href="#">隐私政策</a>所述之目的收集、
+											使用和传输我的个人数据。
+											</div>
+										</div>	
+								</div>	
+							</div>
+							<div class="zhanhu">
+								创建账户
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div id="foot">
+			<!--脚步-->
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$("#head").load("Navigation.html")
+			$("#foot").load("tail.html")
+		})
+	</script>
+</html>
